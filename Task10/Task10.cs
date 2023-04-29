@@ -8,4 +8,4 @@
 int number = new Random().Next(100, 1000);
 Console.WriteLine($"Случайное трехзначное число: {number}");
 
-Console.WriteLine($"{number/10%10}");
+Console.WriteLine($"Вторая цифра этого числа: {number / 10 % 10}");
