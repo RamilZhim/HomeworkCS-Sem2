@@ -5,3 +5,7 @@
 // 782 -> 8
 // 918 -> 1
 
+int number = new Random().Next(100, 1000);
+Console.WriteLine($"Случайное трехзначное число: {number}");
+
+Console.WriteLine($"{number/10%10}");
