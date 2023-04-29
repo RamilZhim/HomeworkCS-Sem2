@@ -7,7 +7,7 @@
 
 // 32679 -> 6
 
-int number = new Random().Next(1, 10000);
+int number = new Random().Next();
 Console.WriteLine($"Cлучайное число: {number}");
 
 if (number < 100)
